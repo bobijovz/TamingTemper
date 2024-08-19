@@ -10,19 +10,16 @@ kotlinSerialization = "1.6.0"
 lifecycleRuntimeKtx = "2.8.4"
 activityCompose = "1.9.1"
 composeBom = "2024.06.00"
-moshi = "1.15.1"
 hilt = "2.48.1"
 ksp = "1.9.0-1.0.13"
-
-
-coroutines = "1.7.3"
+coroutines = "1.6.0"
 room = "2.5.0"
-retrofit = "2.9.2"
 okhttp = "4.10.0"
 coil = "2.5.0"
 junit = "4.13.2"
-mockito = "4.13.1"
-material = "1.3.0"
+mockito = "5.4.0"
+coreKtxVersion = "1.6.1"
+junitKtx = "1.2.1"
 
 
 
@@ -54,16 +51,11 @@ androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = 
 androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
 coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
 
+mockito-core = { group = "org.mockito.kotlin", name = "mockito-kotlin", version.ref = "mockito" }
+coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines"}
+core-ktx = { group = "androidx.test", name = "core-ktx", version.ref = "coreKtxVersion" }
+androidx-junit-ktx = { group = "androidx.test.ext", name = "junit-ktx", version.ref = "junitKtx" }
 
-hilt-lifecycle-viewmodel = { group = "com.google.dagger", name = "hilt-lifecycle-viewmodel", version.ref = "hilt" }
-androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleRuntimeKtx" }
-androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycleRuntimeKtx" }
-coroutines-core = { group = "org.jetbrains.kotlinx", name = "coroutines-core", version.ref = "coroutines" }
-retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
-retrofit-converter-moshi = { group = "com.squareup.retrofit2", name = "converter-moshi", version.ref = "retrofit" }
-moshi-kotlin = { group = "com.squareup.moshi", name = "moshi-kotlin-codegen", version.ref = "moshi" }
-moshi = { group = "com.squareup.moshi", name = "moshi", version.ref = "moshi" }
-mockito-core = { group = "org.mockito", name = "mockito-core", version.ref = "mockito" }
 
 
 [plugins]

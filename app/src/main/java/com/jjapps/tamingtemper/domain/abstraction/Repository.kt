@@ -7,7 +7,7 @@ import com.jjapps.tamingtemper.domain.model.Level
 
 interface Repository {
 
-    suspend fun getLevelWithActivities(level: String): Level
+    //suspend fun getLevelWithActivities(level: String): Level
 
     suspend fun getAllLevelsWithActivities(): List<Level>
 

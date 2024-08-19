@@ -18,7 +18,7 @@ class RepositoryImpl @Inject constructor(
     private val pdfService: PdfService
 ) : Repository {
 
-    override suspend fun getLevelWithActivities(level: String): Level {
+    /*override suspend fun getLevelWithActivities(level: String): Level {
         val temp = levelDao.getLevelWithActivities(level)
         return Level(
             description = temp.level.description,
@@ -40,7 +40,7 @@ class RepositoryImpl @Inject constructor(
                 )
             }
         )
-    }
+    }*/
 
     override suspend fun getAllLevelsWithActivities(): List<Level> {
 

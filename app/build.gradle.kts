@@ -65,6 +65,8 @@ dependencies {
     implementation(libs.kotlinx.serialization.json)
     implementation(libs.hilt.android)
     implementation(libs.androidx.hilt.navigation.compose)
+    implementation(libs.core.ktx)
+    implementation(libs.androidx.junit.ktx)
     ksp(libs.hilt.compiler)
     implementation(libs.coil.compose)
     implementation(libs.okhttp)
@@ -79,6 +81,10 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.ui.test.junit4)
+    testImplementation(libs.mockito.core)
+    testImplementation(libs.coroutines.test)
+    testImplementation(libs.kotlinx.serialization.json)
+
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 }
