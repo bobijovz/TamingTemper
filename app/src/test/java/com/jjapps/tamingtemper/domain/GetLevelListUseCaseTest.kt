@@ -1,7 +1,6 @@
 package com.jjapps.tamingtemper.domain
 
 import android.graphics.Bitmap
-import com.jjapps.tamingtemper.data.local.model.LevelDataResponse
 import com.jjapps.tamingtemper.domain.abstraction.Repository
 import com.jjapps.tamingtemper.domain.model.Level
 import kotlinx.coroutines.runBlocking
