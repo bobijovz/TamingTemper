@@ -1,4 +1,4 @@
-package com.jjapps.tamingtemper.data.local.model
+package com.jjapps.tamingtemper.data.remote.model
 
 import kotlinx.serialization.Serializable
 

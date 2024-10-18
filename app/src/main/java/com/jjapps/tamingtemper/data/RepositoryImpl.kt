@@ -1,7 +1,7 @@
 package com.jjapps.tamingtemper.data
 
 import android.graphics.Bitmap
-import com.jjapps.tamingtemper.data.local.LevelDataSource
+import com.jjapps.tamingtemper.data.remote.LevelDataSource
 import com.jjapps.tamingtemper.data.local.LevelDao
 import com.jjapps.tamingtemper.data.local.model.ActivityEntity
 import com.jjapps.tamingtemper.data.local.model.LevelEntity
